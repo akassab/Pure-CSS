@@ -1,0 +1,25 @@
+
+/* Specifics ********************************/
+/********************************************/	
+#bookmark-nav {
+	/* Don't Bother looking or touching these*/	
+	border-radius: 50px;
+	max-width: 60%;
+	left: 0;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+#add-button {
+	/* Don't Bother looking or touching these*/	
+	border-right: 0 ;
+	border-left: 0;
+}
+
+#home-text {
+	/* Don't Bother looking or touching these*/	
+	padding-top: 10px;
+}
+
+/********************************************/	
+@import './general.css'';

@@ -1,0 +1,25 @@
+@import './css/reset.css';
+@import './css/button.css';
+@import './css/modal.css';
+
+/* Overrides for level 1 */
+.btn, span.content {
+  transition: none;
+}
+.top.content, .bottom.content,
+.btn:hover .top, .btn:hover .bottom {
+  top: auto;
+}
+
+#settings-button nav-button-text:click .modal, .modal-overlay {
+  opacity: 1;
+  visibility: visible;
+  transition: none;
+}
+
+/* Active State */
+.modal.active,
+.modal-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}

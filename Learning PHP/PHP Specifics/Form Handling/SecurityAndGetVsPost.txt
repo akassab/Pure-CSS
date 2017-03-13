@@ -1,0 +1,67 @@
+Bobby Tables
+
+Forms allow users to pass data to servers, exposing the servers to attacks. 
+At hosting facilities, the security risk is greater since script developers may be 
+		the attackers seeking to compromise the hosting provider or its customers, 
+		or developers may make careless mistakes that expose shared hosting customers to risk.
+
+Attackers may try to crack servers through HTML forms by entering special characters into 
+		form fields. 
+
+The special characters are chosen to target specific server software or to extract or 
+		corrupt files and data, or to manipulate files and data that will be sent to other
+	    users. 
+
+The server cannot rely on sanitization or validation of user input by client side scripts
+		since client side scripts are under the user's control.
+
+The server also cannot rely on hidden fields in HTML forms since hidden fields are under
+		the user's control. 
+
+The user also has the ability to add fields that may disrupt unsuspecting scripts.
+		All data received from the client side must be treated as an attack.
+
+The xkcd comic strip number 327, Exploits of a Mom, portrays a woman executing a social 
+		engineering attack on a school database by enrolling a student whose name contains
+		a string of characters that cause the deletion of the school's entire student database. 
+
+The attacker manipulated the school into performing an SQL injection attack, a form of
+		code injection attack directed at SQL servers. 
+
+The strip ends with the attacker helpfully reminding the school of basic security practice.
+###########################################################################################
+GET vs POST
+
+Generally, an HTTP user agent (a web browser) requests pages by sending an HTTP GET to an HTTP server (a web server), 
+	and submits HTML form data by sending an HTTP POST to the server. 
+
+The Hypertext Transfer Protocol (HTTP) allows form data to be posted via either GET or POST. 
+
+Testing forms with GET is very convenient.
+
+The tester (either human or script) can craft special requests to test how the server side scripts handle specific cases.
+
+Unfortunately, accepting form submissions via GET creates security risks such as cross-site request forgery attacks.
+
+All the scripts that handle forms in this course accept form data via POST exclusively, received in scripts via the $_POST superglobal array.
+
+Form data submitted via GET is ignored. As a basic security measure, the convenience of testing forms via GET is sacrificed.
+
+Any method that is convenient for a tester is also convenient for an attacker. This leads to the unfortunate misuse of the term hacker in mainstream media.
+
+Content writers who lack training in technical journalism see hackers (the engineers who created UNIX, Apache, MySQL, PHP and most of
+	the Internet, engineers employed by AT&T, IBM, Oracle, MIT, NASA and other technology institutions) testing their software through
+	code injection and other specialized techniques and assume that hackers must be criminals. 
+
+By comparison, NASA engineers are terrorists because NASA tests aviation safety by crashing airplanes into buildings, a type of test NASA engineers
+		have performed regularly since NASA's inception at the start of the Cold War. 
+
+The discriminatory misuse of terms such as hacking (finding new and unique ways to solve technical problems) favours software vendors whose business
+ 		model is threatened by open source licensing.
+
+This course avoids terms of discrimination that malign hackers. This form of discrimination is a social engineering attack that discourages use of hacker
+ 		software such as UNIX, Apache, MySQL and PHP through FUD (fear, uncertainty and doubt) by relating hacker software to criminal activity.
+ 		
+ FUD is a common method of social engineering attack against victims of discrimination. 
+ 
+ It works best when people and media are unaware that they are doing it, like associating hackers and ethnic neighbourhoods with criminal activity.

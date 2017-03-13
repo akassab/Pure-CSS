@@ -1,0 +1,60 @@
+/* #######################ADJUSTABLES############################### */
+
+body{
+	
+	background: black;
+	background-image: url(http://wallpapercave.com/wp/NcDdW2X.jpg);
+}
+
+.default {
+	color: white;
+	font-size: 50px;
+}
+
+
+
+.content{
+	border: 0;
+	padding: 0;
+	margin: 0;
+	
+    position:relative;
+	top: 40px;
+	left: 13px;
+	width: 980px;
+	height: 800px;
+	
+	
+}
+
+/* #######################ADJUSTABLES############################### */
+
+
+
+
+/*********************************************************************/
+/*********************************************************************/
+/*********************************************************************/
+
+/* !!!!!!!!!!!!!!!!!!!!!!!DONT TOUCH THESE!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+
+
+
+.box {
+	margin: 20px ;
+	border: 10px solid grey;
+    padding: 41px;
+	float: left;
+}
+.default {
+	border: 7px solid white;
+	text-decoration: none !important;
+	width: 60px;
+	padding: 37px 25px;
+}
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!DONT TOUCH THESE!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
