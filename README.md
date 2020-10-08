@@ -5,7 +5,7 @@ The index.html file links 8 CSS files in the css folder. I created this design f
 
 ## Functions
 - None (purely design).
-<img src="Interface.png" width="100%">
+<img src="interface.png" width="100%">
 
 ## Languages
 - HTML
