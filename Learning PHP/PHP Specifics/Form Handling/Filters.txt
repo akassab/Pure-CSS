@@ -1,6 +1,0 @@
-A PHP script may handle various types of data from many sources in 
-	addition to HTML forms.
-
-In each case, the script has to sanitize and validate the data if the reliability of the source is in doubt.
-
-The PHP project home site documents filtering options for a variety of circumstances.
