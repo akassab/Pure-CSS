@@ -1,10 +1,12 @@
-This Repo inclues 2 things:
 
-1. My own person website, see source code in index.html and css folder.
-  https://akassab.github.io/
-  
-2. My own php tuturial, included in the "Learning PHP folder"
+# Pure CSS Template (HTML/CSS only, No Bootstrap)
 
-Check out both :)!
+The index.html file links 8 CSS files in the css folder. I created this design from scratch before learning Bootstrap in order to understand some fundementals.
 
-# akassab.github.io
+## Functions
+- None (purely design).
+<img src="Interface.png" width="100%">
+
+## Languages
+- HTML
+- CSS
